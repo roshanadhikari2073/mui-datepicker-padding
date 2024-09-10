@@ -55,9 +55,6 @@ export default function CustomDateInput() {
         padding: '20px',
       }}
     >
-      <Typography variant="h4" gutterBottom sx={{ color: '#333', marginBottom: '20px' }}>
-        Custom Themed Date & Time Picker
-      </Typography>
 
       {/* DateTimePicker */}
       <LocalizationProvider dateAdapter={AdapterDayjs}>
